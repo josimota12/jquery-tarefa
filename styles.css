@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(198, 198, 198);
+}
+
+#todo-form {
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    width: 300px;
+    padding: 10px;
+}
+
+#todo-list {
+    cursor: pointer;
+}
+
+#todo-list li .completed {
+    text-decoration: line-through;
+}
